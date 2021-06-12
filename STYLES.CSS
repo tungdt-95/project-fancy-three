@@ -850,7 +850,7 @@ blockquote::before
 }
 
 
-@media only screen and (max-width:480px)
+@media (min-width: 320px) and (max-width:568px)
 {
     .logo
     {
@@ -978,7 +978,7 @@ blockquote::before
     }
     .list__icons
     {
-        margin-left: 10px;
+         margin-left: 10px;
         margin-right: 10px;
     } 
 }
