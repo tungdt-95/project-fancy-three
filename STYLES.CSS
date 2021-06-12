@@ -848,3 +848,137 @@ blockquote::before
         left: 0;
     }
 }
+
+
+@media (min-width: 320px) and (max-width:568px)
+{
+    .logo
+    {
+        margin-left: -73px;
+    }
+    header #icon
+    {
+        margin-right: -66px;
+        font-size: 20px;
+        cursor: pointer;
+        display: block;
+    }   
+    .main__nav
+    {
+       
+        position: fixed;
+        display: block;
+        width: 100%;
+        top: 44px;
+        left: -450px;
+        text-align: center;
+        background-color: #e4dcdc; 
+        margin-top: 10px;
+        transition: all .5s;
+    }
+    .main__nav li 
+    {
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+    header ul.show
+    {
+        left: 0;
+    }
+    .img__left,.img__right,.img__between
+    {
+        display: none;
+    }
+    .btn
+    {
+        margin-bottom: 10px;
+    }
+    .header__content h2 {
+        font-size: 20px;
+    }
+    .header__content p {
+        font-size: 14px;
+    }
+    .title
+    {
+        font-size: 40px;
+    }
+    .sub__title
+    {
+        font-size: 16px;
+        margin-top: -41px;
+    }
+    .sub__title::after
+    {
+        margin-top: 10px;
+    }
+    .des
+    {
+        width: 100%;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .section__menu
+    {
+        display: none;
+    }
+    .section__product
+    {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .list__feature
+    {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .section__slide
+    {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .check i,p
+    {
+        display:block;
+    }
+    .check
+    {
+       padding-bottom: 10px;
+    }
+    .section__four,.section__five
+    {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .section__four h2, .section__five h2 {
+        text-align: center;
+        font-size: 18px;
+        font-weight: 500;
+        margin-bottom: 30px;
+    }
+    .section__four h2::after,.section__five h2::after
+    {
+        margin-left: 100px;
+        margin-top: -10px;
+    }
+    button
+    {
+       margin-left: 63px;
+       margin-top: 10px;
+       margin-bottom: 10px;
+    }
+    .section__five h2
+    {
+        margin-top: 10px;
+    }
+    .section__four .des_1, .section__five .des_1
+     {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .list__icons
+    {
+        margin-left: 10px;
+        margin-right: 10px;
+    } 
+}
